@@ -1,0 +1,61 @@
+Starting Power On Self Test
+Power On Self Test SUCCESS
+------------------------------------------------------------------------------
+ wolfSSL version 4.5.0
+------------------------------------------------------------------------------
+wolfCrypt Benchmark (block bytes 1048576, min 1.0 sec each)
+RNG                 20 MB took 1.053 seconds,   18.988 MB/s
+AES-128-CBC-enc     45 MB took 1.052 seconds,   42.782 MB/s
+AES-128-CBC-dec     45 MB took 1.038 seconds,   43.371 MB/s
+AES-192-CBC-enc     40 MB took 1.091 seconds,   36.671 MB/s
+AES-192-CBC-dec     40 MB took 1.077 seconds,   37.129 MB/s
+AES-256-CBC-enc     35 MB took 1.091 seconds,   32.094 MB/s
+AES-256-CBC-dec     35 MB took 1.080 seconds,   32.419 MB/s
+AES-128-GCM-enc     15 MB took 1.418 seconds,   10.581 MB/s
+AES-128-GCM-dec     15 MB took 1.418 seconds,   10.577 MB/s
+AES-192-GCM-enc     10 MB took 1.024 seconds,    9.764 MB/s
+AES-192-GCM-dec     10 MB took 1.025 seconds,    9.752 MB/s
+AES-256-GCM-enc     10 MB took 1.087 seconds,    9.197 MB/s
+AES-256-GCM-dec     10 MB took 1.088 seconds,    9.192 MB/s
+AES-128-ECB-enc     34 MB took 1.000 seconds,   34.180 MB/s
+AES-128-ECB-dec     35 MB took 1.000 seconds,   34.931 MB/s
+AES-192-ECB-enc     30 MB took 1.000 seconds,   30.173 MB/s
+AES-192-ECB-dec     31 MB took 1.000 seconds,   30.741 MB/s
+AES-256-ECB-enc     27 MB took 1.000 seconds,   27.010 MB/s
+AES-256-ECB-dec     27 MB took 1.000 seconds,   27.473 MB/s
+AES-128-CTR         45 MB took 1.069 seconds,   42.109 MB/s
+AES-192-CTR         40 MB took 1.105 seconds,   36.190 MB/s
+AES-256-CTR         35 MB took 1.103 seconds,   31.725 MB/s
+AES-CCM-Enc         25 MB took 1.161 seconds,   21.533 MB/s
+AES-CCM-Dec         25 MB took 1.164 seconds,   21.482 MB/s
+3DES                10 MB took 1.250 seconds,    8.003 MB/s
+MD5                150 MB took 1.008 seconds,  148.831 MB/s
+SHA                110 MB took 1.018 seconds,  108.038 MB/s
+SHA-224             45 MB took 1.028 seconds,   43.771 MB/s
+SHA-256             45 MB took 1.028 seconds,   43.773 MB/s
+SHA-384             70 MB took 1.074 seconds,   65.186 MB/s
+SHA-512             70 MB took 1.074 seconds,   65.187 MB/s
+SHA3-224            70 MB took 1.033 seconds,   67.740 MB/s
+SHA3-256            65 MB took 1.013 seconds,   64.147 MB/s
+SHA3-384            50 MB took 1.009 seconds,   49.564 MB/s
+SHA3-512            35 MB took 1.008 seconds,   34.721 MB/s
+AES-128-CMAC        45 MB took 1.117 seconds,   40.288 MB/s
+AES-256-CMAC        35 MB took 1.141 seconds,   30.671 MB/s
+HMAC-MD5           150 MB took 1.008 seconds,  148.865 MB/s
+HMAC-SHA           110 MB took 1.018 seconds,  108.038 MB/s
+HMAC-SHA224         45 MB took 1.028 seconds,   43.760 MB/s
+HMAC-SHA256         45 MB took 1.030 seconds,   43.691 MB/s
+HMAC-SHA384         70 MB took 1.068 seconds,   65.538 MB/s
+HMAC-SHA512         70 MB took 1.068 seconds,   65.528 MB/s
+PBKDF2               5 KB took 1.001 seconds,    4.902 KB/s
+RSA     1024 key gen         2 ops took 1.051 sec, avg 525.597 ms, 1.903 ops/sec
+RSA     2048 key gen         1 ops took 2.363 sec, avg 2363.334 ms, 0.423 ops/sec
+RSA     2048 public        300 ops took 1.327 sec, avg 4.424 ms, 226.043 ops/sec
+RSA     2048 private       100 ops took 7.535 sec, avg 75.354 ms, 13.271 ops/sec
+DH      2048 key gen        63 ops took 1.009 sec, avg 16.009 ms, 62.463 ops/sec
+DH      2048 agree         100 ops took 3.381 sec, avg 33.813 ms, 29.574 ops/sec
+ECC      256 key gen       113 ops took 1.008 sec, avg 8.920 ms, 112.114 ops/sec
+ECDHE    256 agree         200 ops took 1.779 sec, avg 8.895 ms, 112.424 ops/sec
+ECDSA    256 sign          200 ops took 1.813 sec, avg 9.063 ms, 110.338 ops/sec
+ECDSA    256 verify        200 ops took 1.200 sec, avg 6.000 ms, 166.677 ops/sec
+Benchmark complete
